@@ -1,8 +1,10 @@
+require("./DB/connect")
+
 const express = require("express")
 const app = express()
 const tasks = require("./routes/tasks")
 //middleware
-app.use("/api/v1/task", tasks)
+app.use("/api/v1/tasks", tasks)
 app.use(express.static("./public"))
 app.use(express.json())
 
