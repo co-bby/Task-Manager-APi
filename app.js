@@ -8,11 +8,6 @@ app.use(express.json());
 app.use('/api/v1/tasks', tasks);
 app.use(express.static('./public'));
 
-// routes
-app.get('/hello', (req, res) => {
-  res.send('hello world');
-});
-
 const port = process.env.PORT || 5000;
 
 const start = async () => {
