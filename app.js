@@ -7,8 +7,9 @@ const notfound = require('./middleware/not-found');
 //middleware
 app.use(express.json());
 app.use('/api/v1/tasks', tasks);
-app.use(notfound);
+
 app.use(express.static('./public'));
+app.use(notfound);
 
 const port = process.env.PORT || 5000;
 
