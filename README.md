@@ -1,12 +1,21 @@
 
 # Task Manager API
 
-A Task Manager Rest API
+- [Task Manager API](#task-manager-api)
+  - [Tech Stack](#tech-stack)
+  - [Run Locally](#run-locally)
+  - [Environment Variables](#environment-variables)
+  - [API Reference](#api-reference)
+      - [Get all tasks](#get-all-tasks)
+      - [Get a single Task](#get-a-single-task)
+    - [Delete a single Task](#delete-a-single-task)
+    - [Update a Task](#update-a-task)
 
 
 
 
 ## Tech Stack
+**Architecture:** Model-View-Controller(MVC)
 
 **Client:** Vanilla Javascript
 
@@ -44,7 +53,7 @@ Start the server
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`MONGO_URL` = mongodb+srv://<username>:<password>@cluster0.9t7ho.mongodb.net/?retryWrites=true&w=majority
+`MONGO_URL` = mongodb+srv://<`username`>:<`password`>@cluster0.9t7ho.mongodb.net/?retryWrites=true&w=majority
 
 
 
