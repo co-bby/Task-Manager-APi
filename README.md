@@ -53,7 +53,7 @@ Start the server
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`MONGO_URL` = mongodb+srv://<`username`>:<`password`>@cluster0.9t7ho.mongodb.net/?retryWrites=true&w=majority
+`MONGO_URL` =
 
 
 
